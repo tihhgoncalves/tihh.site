@@ -1,0 +1,28 @@
+{
+  "name": "www.voceafiliado.com",
+  "authors": [
+    "Tihh Gonçalves <tihh.gon@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tihh.site.config.php": "*",
+    "tihh.site.uri.php": "*",
+    "tihh.site.router.php": "*",
+    "tihh.php.obj.db.mysql.sql.post": "*",
+    "tihh.php.obj.db.mysql": "*",
+    "tihh.php.fnc.getTags": "*",
+    "rhinoJS": "*",
+    "bootstrap": "^3.3.6",
+    "bootstrap-device-debug": "*"
+  }
+}
