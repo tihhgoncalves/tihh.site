@@ -2,7 +2,7 @@
 set_include_path(__DIR__);
 
 /* Objeto de Banco de Dados*/
-require('bower_components/tihh.php.obj.db.mysql/load.php');
+//require('bower_components/tihh.php.obj.db.mysql/load.php');
 //$db = new tihh_db_mysql('localhost', 'root', '123', 'db1');
 
 /* Objeto Router */
@@ -19,6 +19,9 @@ $config = new tihh_config();
 $config->set('site_url', $uri->base());
 $config->set('site_path', __DIR__ . '/');
 $config->set('page_title', 'Título do Site');
+$config->set('page_language', 'pt_BR');
+$config->set('page_description', 'Descrição do Site');
+$config->set('page_type', 'website');
 
 /* Objeto TablePost */
 require('bower_components/tihh.php.obj.db.mysql.sql.post/load.php');

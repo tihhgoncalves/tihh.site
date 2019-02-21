@@ -1,0 +1,130 @@
+.fnc_box_marginT(@classname, @val){
+
+	.@{classname}{
+		margin-top: @val;
+
+		@media (max-width: @screen-xs-max) {
+			margin-top: (@val/2);
+		}
+	}
+
+}
+
+.fnc_box_marginB(@classname, @val){
+	
+	.@{classname}{
+		margin-bottom: @val;
+
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: (@val/2);
+		}
+	}
+
+}
+
+.fnc_box_marginTB(@classname, @val){
+	
+	.@{classname}{
+		margin-top: @val;
+		margin-bottom: @val;
+
+		@media (max-width: @screen-xs-max) {
+			margin-top: (@val/2);
+			margin-bottom: (@val/2);
+		}
+	}
+
+}
+
+.fnc_box_paddingT(@classname, @val){
+
+	.@{classname}{
+		padding-top: @val;
+
+		@media (max-width: @screen-xs-max) {
+			padding-top: (@val/2);
+		}
+
+	}
+
+}
+
+.fnc_box_paddingB(@classname, @val){
+
+	.@{classname}{
+		padding-bottom: @val;
+
+		@media (max-width: @screen-xs-max) {
+			padding-bottom: (@val/2);
+		}
+	}
+
+}
+
+.fnc_box_paddingTB(@classname, @val){
+
+
+	.@{classname}{
+		padding-top: @val;
+		padding-bottom: @val;
+
+		@media (max-width: @screen-xs-max) {
+			padding-top: (@val/2);
+			padding-bottom: (@val/2);
+		}
+	}
+
+}
+
+.fnc_box(@val){
+	.fnc_box_marginT(e(%("marT%d", @val)) , 		e(%("%dpx", @val)) );
+	.fnc_box_marginB(e(%("marB%d", @val)) , 		e(%("%dpx", @val)) );
+	.fnc_box_marginTB(e(%("marTB%d", @val)) , 	e(%("%dpx", @val)) );
+	.fnc_box_paddingT(e(%("padT%d", @val)) , 		e(%("%dpx", @val)) );
+	.fnc_box_paddingB(e(%("padB%d", @val)) , 		e(%("%dpx", @val)) );
+	.fnc_box_paddingTB(e(%("padTB%d", @val)) , e(%("%dpx", @val)) );	
+}
+
+.fnc_box(10);
+.fnc_box(15);
+.fnc_box(20);
+.fnc_box(25);
+.fnc_box(30);
+.fnc_box(35);
+.fnc_box(40);
+.fnc_box(45);
+.fnc_box(50);
+.fnc_box(55);
+.fnc_box(60);
+.fnc_box(65);
+.fnc_box(70);
+.fnc_box(75);
+.fnc_box(80);
+.fnc_box(85);
+.fnc_box(90);
+.fnc_box(95);
+.fnc_box(100);
+.fnc_box(110);
+.fnc_box(115);
+.fnc_box(120);
+.fnc_box(125);
+.fnc_box(130);
+.fnc_box(135);
+.fnc_box(140);
+.fnc_box(145);
+.fnc_box(150);
+.fnc_box(155);
+.fnc_box(160);
+.fnc_box(165);
+.fnc_box(170);
+.fnc_box(175);
+.fnc_box(180);
+.fnc_box(185);
+.fnc_box(190);
+.fnc_box(195);
+.fnc_box(200);
+
+
+
+
+

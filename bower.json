@@ -22,7 +22,6 @@
     "tihh.php.obj.db.mysql": "*",
     "tihh.php.fnc.getTags": "*",
     "rhinoJS": "*",
-    "bootstrap": "^3.3.6",
-    "bootstrap-device-debug": "*"
+    "bootstrap": "^3.3.6"
   }
 }
