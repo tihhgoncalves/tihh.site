@@ -16,7 +16,6 @@
   ],
   "dependencies": {
     "tihh.site.config.php": "*",
-    "tihh.site.uri.php": "*",
     "tihh.site.router.php": "*",
     "tihh.php.obj.db.mysql.sql.post": "*",
     "tihh.php.obj.db.mysql": "*",
